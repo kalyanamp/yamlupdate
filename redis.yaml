@@ -1,0 +1,4 @@
+${ENVIRONMENT}:
+   host: ${REDIS_HOST}
+   namespace: ${REDIS_NAMESPACE}
+   port: 6379

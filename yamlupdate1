@@ -1,6 +1,0 @@
-eval "cat <<EOF
-$(<$1)
-EOF
-" | tee $1.tmp 2> /dev/null
-mv $1.tmp $1
-
